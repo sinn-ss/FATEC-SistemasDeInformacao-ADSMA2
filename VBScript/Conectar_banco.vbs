@@ -69,7 +69,7 @@ sub cadastrar_clientes
             msgbox("CPF: "& cpf &" já cadastrado!"),vbexclamation + vbokonly,"ATENÇÃO"
             call menu
         else
-            nome = inputbox("Informe o NOME DO CLIENTE: ", "CADASTRO DE CLIENTES - Nome")
+            nome = inputbox("Informe o NOME DO CLIENTE: ", "CADASTRO DE CLIENTES - NOME")
         end if
     else
         msgbox("CPF inválido!")
