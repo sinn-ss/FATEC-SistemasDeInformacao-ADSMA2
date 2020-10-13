@@ -336,7 +336,7 @@ sub ranking()
 end sub
 
 sub confirmar_saida()
-    resposta = msgbox("Deseja realmente sair?", vbquestion + vbyesno, "SHOW DO MILHÃO - SAIR?")
+    resposta = msgbox("Deseja realmente sair?", vbquestion + vbyesno, "SHOW DO MILHÃO - DESEJA SAIR?")
     if resposta = vbyes then
         sql = "UPDATE tb_questoes SET ja_utilizada = 'N' WHERE ja_utilizada = 'S'"
         set rs=db.execute(sql)
